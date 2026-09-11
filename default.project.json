@@ -1,0 +1,34 @@
+{
+  "name": "AstroMiner",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ServerMain": {
+        "$path": "src/ServerScriptService/ServerMain.server.luau"
+      },
+      "Services": {
+        "$path": "src/ServerScriptService/Services"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "ClientMain": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/ClientMain.client.luau"
+        },
+        "Controllers": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/Controllers"
+        }
+      }
+    }
+  }
+}
